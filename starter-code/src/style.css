@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
+
+body {
+  /* background-color: rgb(23, 23, 46); */
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  width: 70%;
+}
+
+.top-box {
+  color: white;
+  background-color: rgb(42, 42, 59);
+  padding: 80px;
+}
+
+.headings {
+  width: 60%;
+}
+
+.headings h1 {
+  font-size: 80px;
+  margin: 0;
+  padding-top: 120px;
+}
+
+.headings p {
+  font-weight: 400;
+  font-size: 25px;
+  color: rgb(163, 160, 160);
+  width: 60%;
+}
+
+.headings button {
+  padding: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  border-radius: 6px;
+  font-weight: 700;
+  margin-top: 50px;
+  color: rgb(39, 36, 36);
+}
+
+.react-logo {
+  background-color: rgba(255, 255, 255, 0.192);
+  /* float: right; */
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 20px; */
+  height: 800px;
+  /* background-color: green; */
+}
+
+.row h3 {
+  font-size: 25px;
+  font-weight: 700;
+  color: rgb(56, 53, 53);
+}
+
+.card p {
+  width: 80%;
+  font-size: 20px;
+  color: gray;
+}
+
+.icons-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 50px;
+}
